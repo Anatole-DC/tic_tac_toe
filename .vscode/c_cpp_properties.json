@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/cygwin64/usr/include"
+            ],
+            "defines": [],
+            "cStandard": "gnu17",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:\\\\cygwin64\\\\usr\\\\include"
+                ]
+            },
+            "compilerPath": "C:/cygwin64/bin/gcc.exe"
+        }
+    ],
+    "version": 4
+}

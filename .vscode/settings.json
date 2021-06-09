@@ -1,0 +1,25 @@
+{
+    "terminal.integrated.allowWorkspaceConfiguration" : true,
+    "terminal.integrated.profiles.windows": {
+      "PowerShell -NoProfile": {
+        "source": "PowerShell",
+        "args": ["-NoProfile"]
+      }
+    },
+    "terminal.integrated.profiles.linux": {
+      "zsh (login)": {
+        "path": "C:\\cygwin64\\bin\\bash.exe",
+        "args": ["-l"],
+        "terminal.integrated.shellArgs.windows": ["--login", "-i"],
+        "terminal.integrated.env.windows": {
+           "CHERE_INVOKING": "1"
+        },
+      }
+    },
+    "files.associations": {
+      "string": "cpp",
+      "ostream": "cpp",
+      "iostream": "cpp",
+      "iosfwd": "cpp"
+    },
+  }
