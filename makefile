@@ -4,7 +4,7 @@ LDFLAGS = 															# Compiler links edition
 
 MODULES = .															# All the modules to compile
 
-EXEC = executable 												    # Executables name
+EXEC = executable c_grid										    # Executables name
 SRC = $(foreach sdir,$(MODULES), $(wildcard $(sdir)/*.cpp))			# Fetch all the *.cpp files
 OBJ = $(SRC:.cpp=.o)												# Create all objects files
 
